@@ -1,3 +1,12 @@
+call plug#begin()
+
+Plug 'tpope/vim-surround'
+Plug 'wellle/targets.vim'
+Plug 'asvetliakov/vim-easymotion'
+Plug 'justinmk/vim-sneak'
+
+call plug#end()
+
 let mapleader = " "
 map <Leader> <Plug>(easymotion-prefix)
 
